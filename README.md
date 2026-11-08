@@ -1,5 +1,6 @@
 # claude-notifier
 
+[![npm version](https://img.shields.io/npm/v/claude-notifier.svg)](https://www.npmjs.com/package/claude-notifier)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 
