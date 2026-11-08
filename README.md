@@ -12,9 +12,9 @@ Claude Code can spend minutes working while your terminal is in another window. 
 
 ```text
 ┌───────────────┐   JSON/stdin   ┌─────────────────┐   native command   ┌─────────────┐
-│ Claude Code   │ ──────────────▶ │ claude-notifier │ ─────────────────▶ │ OS desktop  │
-│ Stop/Notify   │                 │ parse + route   │                    │ notification│
-└───────────────┘                 └─────────────────┘                    └─────────────┘
+│ Claude Code   │ ────────────▶  │ claude-notifier │ ────────────────▶ │ OS desktop  │
+│ Stop/Notify   │                │ parse + route   │                    │ notification│
+└───────────────┘                └─────────────────┘                    └─────────────┘
                                         │
                                         └── critical alert once at ≤ 5%
 ```
@@ -38,6 +38,15 @@ Claude Code can spend minutes working while your terminal is in another window. 
 - macOS: `osascript` (included with macOS).
 
 ## Quick start
+
+### Global Installation (Recommended)
+
+Install globally via npm and run the automatic setup:
+
+```bash
+npm install -g @ruben0305-mint/claude-notifier
+node install.js
+```
 
 From a clone of this repository:
 
