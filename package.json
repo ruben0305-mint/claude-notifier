@@ -1,0 +1,27 @@
+{
+  "name": "claude-notifier",
+  "version": "0.1.0",
+  "description": "Zero-dependency native notifications for Claude Code hooks.",
+  "main": "src/cli.js",
+  "bin": {
+    "claude-notifier": "bin/claude-notifier.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/claude-notifier.js hook",
+    "test": "node --test",
+    "build": "node -e \"console.log('claude-notifier: build complete (zero runtime dependencies)')\""
+  },
+  "license": "MIT",
+  "files": [
+    "bin",
+    "src",
+    "install.js",
+    "install.sh",
+    "README.md",
+    "LICENSE"
+  ]
+}
