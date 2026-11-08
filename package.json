@@ -1,5 +1,5 @@
 {
-  "name": "claude-notifier",
+  "name": "@ruben0305-mint/claude-notifier",
   "version": "0.1.0",
   "description": "Zero-dependency native notifications for Claude Code hooks.",
   "main": "src/cli.js",
